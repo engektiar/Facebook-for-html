@@ -1,9 +1,12 @@
 .header{
-  height: 40px;
-   text-align: center;
- 
-  margin-top: 10px;
-  box-shadow: 1px 1px 3px gray;
+   padding: 5px 15px;
+   display: flex;
+   justify-content: space-between;
+   position: sticky;
+   background: #fff; 
+   z-index:20;
+   top: 0;
+   box-shadow: 1px 1px 3px gray;
 }
 .header-left{
   display: flex;
@@ -23,8 +26,26 @@
  }
    .header-input input{
      outline: none;
+    padding: 10px;
+    margin-left: 10px;
+     border: 0;
+     background: #eff2f5;
+     padding: 0 5px;
      border-radius: 15px;
      
+   }
+   .search-input{
+     position: relative;
+     z-index: -1;
+     padding: 3px 30px !important;
+     
+   }
+   .searchicon{
+    position: absolute;
+    top: 13px;
+    left: 74px;
+    right: 40px;
+    bottom: 0;
    }
   .header-middle{
     display: flex;
@@ -50,7 +71,7 @@
     padding: 3px;
    }
    .person-img{
-     height: 40px;
+     height: 35px;
      border-radius: 50%;
    }
    .header-info{
