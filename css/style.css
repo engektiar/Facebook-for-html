@@ -140,7 +140,12 @@
      width: 100%;
       position: relative;
       margin-right: 5px;
+      cursor: pointer;
    }
+  .story-opsation:hover{
+    transform: scale(1.1);
+  }
+
    .story-person{
      display: flex;
      position: absolute;
