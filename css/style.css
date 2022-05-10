@@ -59,10 +59,10 @@
     padding: 0 30px;
     cursor: pointer;
   }
-  .fa-solid{
+  .headermdiileicon{
     color: gray;
   }
-   .fa-solid:hover{
+   .headermdiileicon:hover{
      color: #2e81f4;
    }
    .active{
@@ -88,3 +88,83 @@
      margin-left: 3px;
      justify-content: center;
    }
+   /* saidbar */
+   .sidebar{
+     margin-top: 10px;
+     height: 500px;
+   }
+   .sidebarleft{
+     background: rgb(244, 244, 243);
+     height: 400px;
+     cursor: pointer;
+   }
+
+   .sidbar-opsation{
+     display: flex;
+     align-items: center;
+  transition: .3s;
+   }
+   .sidbar-opsation:hover{
+     background: lightgray;
+     border-radius: 10px;
+   }
+  
+   .sidebar-name{
+     margin-left: 10px;
+     font-size: 18px;
+     font-weight: 400;
+     color: #2e81f4;
+     text-transform: capitalize;
+   }
+   .leftsidebericons{
+     font-size: 19px;
+     
+   }
+   .sidebar-middle{
+     background: green;
+     height: 400px;
+   }
+   .sidbar-right{
+     background: rgba(162, 186, 215, 0.75);
+     height: 400px;
+   }
+
+   /* middle */
+   .story{
+      
+     height: 156px;
+   }
+
+   .story-opsation{
+     height: 160px;
+     width: 100%;
+      position: relative;
+      margin-right: 5px;
+   }
+   .story-person{
+     display: flex;
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     margin-right: 5px;
+ 
+   }  
+   .storyimg{
+    height: 100%;
+   width: 100%;
+   border-radius: 10px;
+ }
+.story-img{
+  height: 20px;
+  border-radius: 20px;
+}
+.story-name{
+  font-size: 12px;
+  width: 100%;
+  color: #fff;
+  margin-left: 3px;
+}
+
+  
